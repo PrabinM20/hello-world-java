@@ -33,6 +33,9 @@ jobs:
 
     - name: Build Docker Image
       run: docker build -t prabinm20/hello-world-java-demo:0.0.1.Release .
+
+    - name: Push Docker Image
+      run: docker push prabinm20/github-actions-docker-java-app:0.0.2.Release .
     
 
       
