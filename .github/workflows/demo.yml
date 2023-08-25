@@ -40,7 +40,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         
     - name: Push Docker Image
-      run: docker push prabinm20/github-actions-docker-java-app:0.0.1.Release 
+      run: docker push prabinm20/github-actions-docker-java-app:0.0.1.Release .
 
      
 
